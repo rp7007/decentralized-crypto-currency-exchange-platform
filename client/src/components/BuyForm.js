@@ -23,7 +23,7 @@ class BuyForm extends Component {
         <div>
           <label className="float-left"><b>Input</b></label>
           <span className="float-right text-muted">
-            Balance: {this.props.ethBalance ? parseInt(this.props.ethBalance._hex) / (100 ** 18) : 0}
+            Balance: {this.props.ethBalance ? parseInt(this.props.ethBalance._hex) / (10 ** 18) : 0}
           </span>
         </div>
         <div className="input-group mb-4">
@@ -49,7 +49,7 @@ class BuyForm extends Component {
         <div>
           <label className="float-left"><b>Output</b></label>
           <span className="float-right text-muted">
-            Balance: {this.props.tokenBalance ? parseInt(this.props.tokenBalance._hex) / (100 ** 18) : 0}
+            Balance: {this.props.tokenBalance ? parseInt(this.props.tokenBalance._hex) / (10 ** 18) : 0}
           </span>
         </div>
         <div className="input-group mb-2">
