@@ -5,7 +5,7 @@ import "./Token.sol";
 contract EthSwap {
   string public name = "EthSwap Instant Exchange";
   Token public token;
-  uint public rate = 1000;
+  uint public rate = 100;
 
   event TokensPurchased(
     address account,
